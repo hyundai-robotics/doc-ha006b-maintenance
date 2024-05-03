@@ -56,7 +56,11 @@
 <table border="0">
 <thead>
   <tr>
-    <td> <img src="../../_assets/주의표시.png" width = 60 height = 60> </td>
+    <td>
+    <div align="center">
+    <img src="../../_assets/주의표시.png" width = 60 height = 60>
+    </div>
+    </td>
     <td colspan="4">
     -	배터리를 버리지 마십시오. 해당 나라의 법이나 규율에 따라 산업용 폐기물로 취급하십시오.<p>
 -	배터리를 충전하지 마십시오. 폭발이나 과열을 일으킬 수 있습니다.<p>
