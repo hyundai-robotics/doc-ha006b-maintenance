@@ -15,6 +15,45 @@
 
 {% endhint %}
 # 1. 안전
+# 1.1. 서론
+
+본 장의 주된 목적은 산업용 로봇의 사용자와 보수, 조작하는 작업자의 안전에 대한 사항을 기술하는 것입니다.
+
+이 설명서는 UC 기계류 지침 98/37/EC(2006/42/EC)와 USA OSHA의 안전규정을 준수하며, 로봇 본체 및 제어기 부분의 안전에 관련된 사항을 기술합니다. 그리고 로봇 본체 및 제어기는 EN ISO 10218-1:2011 와 ANSI/NFPA 79:2021의 안전기준을 준수하여 제조합니다.
+
+로봇 시스템의 설치, 교체, 조정, 조작, 보전, 보수를 행하는 모든 작업자들은 반드시 조작설명서, 보수설명서를 숙독하여 완전히 이해하여야 하며, 특히 안전과 관련된 가장 중요한 경고 표시인&nbsp;  ![](../_assets/작은주의표시.png)기호가 표시된 부분은 특별한 주의를 필요로 합니다.
+
+로봇 시스템의 설치, 교체, 조정, 조작, 보전, 보수는 이러한 목적을 위해 교육된 작업자에 의해서 지시된 작업 순으로 행해져야 합니다.
+
+당사에서는 이러한 작업을 위하여 보전, 보수, 조작 교육을 계획하여 시행하고 있으니, 로봇 사용자는 로봇 작업자에 대하여 해당 교육을 받을 수 있도록 하여 주십시오. 그리고 반드시 본 교육 과정을 이수한 작업자만이 로봇을 취급하는 작업을 할 수 있도록 하여 주십시오.
+
+당사의 산업용 로봇의 사용자는 해당 국가에서 적용되는 로봇과 관계된 안전관련 법규를 확실히 파악하여 준수하여야 할 책임과 로봇 시스템에서 일하는 작업자를 보호하기 위한 안전장치를 제대로 설계, 설치, 운용할 책임이 있습니다.
+
+로봇 시스템의 위험지역 즉 로봇, 툴(tool), 주변 장치들이 동작하는 지역에서는 ANSI/NFPA 79:2021에 의하여 작업자 또는 작업물 외의 물체가 위험지역으로 진입하는 것을 방지하기 위한 안전장치가 있어야 합니다. 위험을 불구하고 작업자나 물체가 위험지역으로 들어가야 할 때는 비상정지(emergency stop)장치에 의하여 로봇 시스템이 즉시 정지되도록 시스템을 구성하여야 합니다. 이러한 안전장치의 설치, 확인, 운용의 책임은 작업자에게 있습니다.
+
+로봇의 응용분야 및 사용할 수 없는 환경은 아래와 같습니다.
+
+
+![](../_assets/말머리이미지.png )  <font size = 3> **응용분야** </font><br>
+
+평면 또는 벽면에 설치하여 사용하는 산업용 로봇에 적용합니다(축 추가 가능). 또한 점 구간 또는 연속구간에서 제어하는 작업을 하기에 알맞습니다.
+
+주된 응용분야는 
+
+*   스폿(Spot) 용접
+*   아크(Arc) 용접
+*   커팅(Cutting)
+*   핸들링(Handling) 
+*   조립(Assembly) 
+*   실링(Sealing)등의 응용 
+*   팔레타이징(Palletizing) 
+*   그라인딩(Grinding) 
+
+위에 언급한 주된 응용분야 이외의 목적으로 사용하기 위해선 로봇 용도 및 응용가능 여부를 고려하여야 하므로 반드시 당사로 연락바랍니다. 
+
+![](../_assets/말머리이미지.png )  <font size = 3> **사용할 수 없는 환경** </font><br>
+당사 로봇은 폭발성이 강한 환경, 기름이나 화학물질이 포함된 지역에서는 사용할 수 없습니다. (설치, 조작 금지) 
+
 # 1.2. 관련 안전 규정
 
 로봇은 산업용 로봇의 안전 규격인 ISO 10218-1:2011에 따라 설계되었으며, 또한 ANSI/NFPA 79:2021규정을 준수하였습니다.
@@ -42,7 +81,7 @@
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-osmi{background-color:#f8f8be;color:#000000;border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-osmi{background-color:#f8f8be;color:#000000;text-align:center;vertical-align:middle}
 .tg .tg-bav5{background-color:#f8f8be;color:#000000;text-align:center;vertical-align:middle}
 .tg .tg-nrix{text-align:center;vertical-align:middle}
 .tg .tg-0lax{text-align:left;vertical-align:middle}
@@ -1129,7 +1168,7 @@ text-align:center;vertical-align:middle}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-bgl2{background-color:#f8f8be;border-color:inherit;color:#000000; font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-bgl2{background-color:#f8f8be;color:#000000; font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-jnja{background-color:#ccf1bc;text-align:center;color:#000000; font-weight:bold;vertical-align:top}
 </style>
 <table class="tg">
@@ -1315,7 +1354,7 @@ text-align:center;vertical-align:middle}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-bgl2{background-color:#f8f8be;border-color:inherit;color:#000000; font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-bgl2{background-color:#f8f8be;color:#000000; font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-bav5{background-color:#f8f8be;text-align:center;color:#000000; font-weight:bold;vertical-align:top}
 </style>
 <table class="tg">
@@ -1395,7 +1434,7 @@ text-align:center;vertical-align:middle}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-bgl2{background-color:#f8f8be;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-bgl2{background-color:#f8f8be;text-align:center;vertical-align:top}
 .tg .tg-bav5{background-color:#f8f8be;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
@@ -1487,7 +1526,60 @@ text-align:center;vertical-align:middle}
 
 [NEW]
 
-그림 3.4 안전 명판 위치 [HA006L]# 3.4. 로봇 보관
+그림 3.4 안전 명판 위치 [HA006L]# 3.3. 운반방법
+# 3.3.1. 크레인 이용
+
+
+![](../../_assets/그림_3.5_운반방법_크레인이용.png)
+
+그림 3.5 운반 방법: 크레인 이용 [HA006B]
+
+![](../../_assets/그림_3.6_운반방법_크레인이용.png)
+
+그림 3.6 운반 방법: 크레인 이용 [HA006L]
+
+<br>
+
+다음의 로봇 리프팅 지시는 공장 출하상태의 로봇에 유효합니다. 부가 장비를 로봇 본체에 추가하면, 무게 중심이 변경되어 리프팅이 어렵게 됩니다.
+
+<ol style="list-style-type:disc" start="1">
+		<li>절대로 로봇 본체 아래로 걸어 다니지 마십시오. </li>
+        <li>그림과 같은 로봇 자세를 취합니다. </li>
+        <li>M12 EYE BOLT를 설치합니다.</li>
+        <li>EYE BOLTS에 와이어 로프를 체결합니다.</li>
+        <li>로봇 본체의 손상 방지용 보호 호스(50㎝)를 부착합니다.</li>
+        <li>리프팅 작업 시 안전 규정을 준수합니다.</li>
+        <li>본체의 무게: 145kg[HA006B] / 224kg[HA006L]</li>
+        <li>최소 크레인 용량: 0.5톤</li>
+</ol># 3.3.2. 지게차 이용
+
+로봇 본체의 운반 시 지게차를 이용할 수 있습니다.
+
+안전을 위해 다음의 절차를 준수해 주십시오.
+
+<ol style="list-style-type:disc" start="1">
+		<li>그림을 참조하여 기본 자세를 취하게 하십시오.</li>
+        <li>로봇을 팔레트에 볼트로 고정하고 팔레트에 지게차의 포크를 밀어 넣어 운반하여 주십시오. 팔레트는 강도상 충분히 견딜 수 있는 것이어야 합니다.
+        </li>
+        <li>저속으로 운반하십시오.</li>
+        <li>안전 규정을 준수하십시오.</li>
+</ol><br>
+
+<img src="../../_assets/작은주의표시.png"> 주의 사항
+
+<ol style="list-style-type:disc" start="1">
+		<li>운반작업도중 로봇본체에 기대지 마십시오.</li>
+        <li>상, 하차 작업 시 로봇본체가 바닥에 충돌하지 않도록 확인을 요합니다.</li>
+        <li>지게차 작업 시 안전수칙을 준수하여 작업 하십시오.</li>
+</ol><br>
+
+![](../../_assets/그림_3.7_운반방법_지게차이용.png)
+
+그림 3.7 운반 방법: 지게차 이용 [HA006B]
+
+![](../../_assets/그림_3.8_운반방법_지게차이용.png)
+
+그림 3.8 운반 방법: 지게차 이용 [HA006L]# 3.4. 로봇 보관
 
 로봇을 설치하지 않고 보관할 때는 [그림3.5]와 [그림3.6]과 같이 자세를 잡아 주십시오.
 
@@ -2823,7 +2915,11 @@ H축을 몇 분간 움직이면서 오래 된 그리스를 뽑아낸 후, 새 �
 <table border="0">
 <thead>
   <tr>
-    <td> <img src="../../_assets/주의표시.png" width = 60 height = 60> </td>
+    <td>
+    <div align="center">
+    <img src="../../_assets/주의표시.png" width = 60 height = 60>
+    </div>
+    </td>
     <td colspan="4">
     -	배터리를 버리지 마십시오. 해당 나라의 법이나 규율에 따라 산업용 폐기물로 취급하십시오.<p>
 -	배터리를 충전하지 마십시오. 폭발이나 과열을 일으킬 수 있습니다.<p>
